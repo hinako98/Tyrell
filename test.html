@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registrarion form</title>
+<style>
+  h1  {
+    color: #009;
+    font-size: 1em;
+    margin-bottom: .3em;
+    text-align: center;
+    text-decoration: underline;
+  }
+</style>
+<link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <img src="tyrell%20logo.png" alt="tyrell logo">
+
+    <ul>
+  <li><a href="service.asp">サービスについて</a></li>
+  <li><a href="work.asp">実績紹介</a></li>
+  <li><a href="about.asp">私達について</a></li>
+  <li><a href="blog.asp">ブログ</a></li>
+  <li><a href="career.asp">採用情報</a></li>
+  <li><a href="contact.asp">お問い合わせ</a></li>
+  <li><a href="access.asp">アクセス</a></li>
+ 
+</ul>
+    
+    <img src="Octocat.jpg" alt="github logo">
+
+    <form action="confirm.php" method="post">
+    <p>Eメールアドレス <input type="email" name="email"></p>
+    <p>パスワード <input type="text" name="password"></p>
+    <p>お名前 <input type="text" name="yourname"></p>
+    <p>フリガナ <input type="text" name="furigana"></p>
+    <p>電話番号 <input type="text" name="phone"></p>
+    <p>郵便番号 <input type="text" name="zip"></p>
+    <p>住所1 <input type="text" name="address1"></p>
+    <p>住所2 <input type="text" name="adress2"></p>
+    <p>住所3</p><textarea id="adress3" name="adress3"></textarea>
+    
+    <p>性別</p>
+    <input id="male" type="radio" name="sex" value="other"><label for="male">その他</label>
+    <input id="male" type="radio" name="sex" value="male"><label for="male">男性</label>
+    <input id="female" type="radio" name="sex" value="female"><label for="female">女性</label>
+    <p><label for="birthday">生年月日</label>
+  <input type="date" name="birthday" id="birthday">
+    </p>
+    <p>DM(郵送)を受け取る</p>
+    <input id="male" type="radio" name="dm" value="yes"><label for="male">はい</label>
+    <input id="male" type="radio" name="dm" value="no"><label for="male">いいえ</label>
+    <p>メール配信
+    <input type="checkbox" id="subscription">
+<label> 当サイトからのお知らせ &#8226; ご案内を受け取る</label><br>
+    </p>
+    
+    <div style="height:400px;width:600px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+1.会員規約タイトル
+<div>規約内容が入ります。規約内容が入ります。規約内容が入ります。規約内容が入ります。</div>
+2.会員規約タイトル
+<div>規約内容が入ります。規約内容が入ります。規約内容が入ります。規約内容が入ります。</div>
+3.会員規約タイトル
+<div>規約内容が入ります。規約内容が入ります。規約内容が入ります。規約内容が入ります。</div>
+4.会員規約タイトル
+<div>規約内容が入ります。規約内容が入ります。規約内容が入ります。規約内容が入ります。</div>
+5.会員規約タイトル
+<div>規約内容が入ります。規約内容が入ります。規約内容が入ります。規約内容が入ります。</div>
+6.会員規約タイトル
+<div>規約内容が入ります。規約内容が入ります。規約内容が入ります。規約内容が入ります。</div>
+7.会員規約タイトル
+<div>規約内容が入ります。規約内容が入ります。規約内容が入ります。規約内容が入ります。</div>
+8.会員規約タイトル
+<div>規約内容が入ります。規約内容が入ります。規約内容が入ります。規約内容が入ります。</div>
+</div>
+    <p>
+      <button type="submit">同意して会員登録する</button>
+    </p>
+</form>
+</body>
+</html>
